@@ -1,0 +1,180 @@
+body {
+    background-color: #fceeee;
+}
+/*------------nav-bar------------*/
+.nav-wrapper {
+    background-color: white;
+}
+nav {
+    box-shadow: none;
+    border-bottom: 2px solid #feccc9;
+    height: 51px;
+}
+
+.nav-wrapper .nav-logo {
+    color: #fa655e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-mobile li a.before {
+    color: #fa655e;
+    font-size: 40px;
+    margin-top: -3px;
+}
+#nav-mobile li a.before:hover {
+    background-color: transparent;
+}
+
+.material-icons.red550 {
+    color: #fa655e;
+    font-size: 2.1em;
+}
+.launch {
+    float: right;
+    padding-right: 18px;
+}
+/*------------chat-message------------*/
+.collection {
+    border: none;
+}
+.collection .collection-item {
+    background-color: transparent;
+    border: none;
+}
+li.collection-item.avatar {
+    display: inline-block;
+}
+.row{
+    margin-bottom: 0px;
+}
+.row:last-child {
+    margin-bottom: 34px;
+}
+.collection .collection-item.avatar p.msg1 {
+    background-color: white;
+    margin-right: 50px;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.collection .collection-item.avatar .secondary-content{
+    text-align: left;
+    top: inherit;
+    bottom: 11px;
+    right: 18px;
+}
+span.nickname {
+    color: #fa655e;
+    font-weight: bold;
+}
+span.badge.people {
+    width: 45px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 0px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fa655e;
+}
+span.badge.time {
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #bdb8b8;
+}
+/*------------chat-my-message-------------*/
+li.collection-item.avatar.my-msg {
+    padding-left: 20px;
+    padding-right: 10px;
+    float: right;
+}
+.collection .collection-item.avatar p.msg2 {
+    background-color: #fa655e;
+    margin-left: 50px;
+    margin-right: 7px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+span.my-people {
+    position: absolute;
+    bottom: 12px;
+    width: 45px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 0px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    color: #fa655e;
+}
+span.my-time {
+    float:left;
+    position: absolute;
+    bottom: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #bdb8b8;
+}
+.collection .collection-item.avatar {
+    min-height: 72px;
+}
+/*------------send-message-------------*/
+form {
+    background: #f0ebeb;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+#m {
+    background: white;
+    border: 0;
+    width: 67%;
+    height: 29px;
+    margin: 12px 1% 4px 1%;
+}
+
+#m:focus {
+    text-indent: 10px;
+}
+
+#button_submit {
+    width: 15%;
+    padding: 5px;
+    margin: 4px 0px 4px 1%;
+    height: 36px;
+    line-height: 29px;
+    background-color: transparent;
+    color: #696969;
+    box-shadow: none;
+    font-size: 18px;
+}
+
+#button_plus {
+    width: 11%;
+    padding: 0px;
+    margin: 0px 0px 3px 4px;
+    height: 36px;
+    line-height: 29px;
+    background-color: transparent;
+    color: #a78e8e;
+    box-shadow: none;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+form.col.s12 {
+    padding: 0px;
+}
+
+

@@ -1,0 +1,60 @@
+body {
+    background-color: #dc4f48;
+}
+
+.join {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#icon_id,
+#icon_password,
+#icon_nickname {
+    border-bottom: 1.5px solid white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    height: 24px;
+}
+
+.material-icons.white600 {
+    color: white;
+    font-size: 24px;
+    width: 24px;
+}
+
+.input-field label {
+    color: white;
+    text-align: left;
+    top: 0;
+}
+
+#button_join {
+    background-color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 250px;
+    font-size: 15px;
+    color: #dc4f48;
+}
+
+#button_join:hover {
+    background-color: #dc4f48;
+    color: white;
+}
+
+nav {
+    box-shadow: none;
+    background-color: #dc4f48;
+}
+
+.nav-wrapper .nav-logo {
+    color: white;
+    font-size: 20px;
+}
+
+#nav-mobile li a {
+    background-color: #dc4f48;
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}

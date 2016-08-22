@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link type="text/css" rel="stylesheet" href="css/theme_login.css" />
+</head>
+
+<body>
+    <div class="login">
+        <div class="row" style="margin-bottom: 0px">
+            <h1>
+                <a tabindex="-1" title="불톡">불톡</a>
+            </h1>
+        </div>
+        <div class="row">
+            <h4> 불톡 </h4>
+        </div>
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row" style="margin-top: 14px">
+                    <div class="input-field col s10 offset-s1">
+                        <i class="material-icons prefix white600">lock</i>
+                        <input id="icon_id" type="text" class="validate">
+                        <label for="icon_id">이메일 아이디</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s10 offset-s1" style="margin-top: 6px">
+                        <i class="material-icons prefix white600">vpn_key</i>
+                        <input id="icon_password" type="password" class="validate">
+                        <label for="icon_password">비밀번호</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row" style="margin-bottom: 9px">
+            <div class="butoon col s10 offset-s1">
+                <a class="waves-effect waves-light btn-large" id="button_login" href="drama_list.html">로그인</a>
+                <a class="waves-effect waves-light btn-large" id="button_signup" href="join.html">회원가입</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <a class="col s12" id="password_find" href="#">비밀번호를 잊으셨나요?</a>
+        </div>
+
+    </div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script src="js/resizeWin.js"></script>
+
+</body>
+
+</html>

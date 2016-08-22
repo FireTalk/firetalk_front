@@ -1,0 +1,80 @@
+body {
+    background-color: #dc4f48;
+}
+
+.login {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login h1 a {
+    background-image: url(../images/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 274px 167px;
+    height: 167px;
+    margin: 67px auto 0px;
+    padding: 0;
+    width: 274px;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+}
+
+.login h1 {
+    margin-bottom: 0px;
+}
+
+.login h4 {
+    color: white;
+    margin-top: 0;
+}
+
+#icon_id,
+#icon_password {
+    border-bottom: 1.5px solid white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    height: 24px;
+}
+
+.material-icons.white600 {
+    color: white;
+    font-size: 24px;
+    width: 24px;
+}
+
+.input-field label {
+    color: white;
+    text-align: left;
+    top: 0;
+}
+
+#button_login {
+    background-color: white;
+    color: #dc4f48;
+    border: 1px solid white;
+    height: 50px;
+    width: 126px;
+    font-size: 15px;
+}
+
+#button_signup {
+    background-color: #dc4f48;
+    border: 1px solid white;
+    height: 50px;
+    width: 126px;
+    font-size: 15px;
+}
+#button_login:hover {
+    background-color: #dc4f48;
+    color: white;   
+}
+#button_signup:hover {
+    background-color: white;
+    color: #dc4f48;   
+}
+#password_find {
+    color: white;
+    font-size: 11px;
+}
