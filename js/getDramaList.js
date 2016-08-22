@@ -1,7 +1,5 @@
 $(document).ready(function() {
-    // slidNav 사용하기 위한 기본
-    $('.button-collapse').sideNav();
-
+    
     // 드라마 리스트 배열
     var drama_list= [
         {broadcaster: 'mbc', d_title: '그녀는 예뻤다:최종화', air_time: '오후 12:00 ~ 오후 1:00', par_num: '9'},
