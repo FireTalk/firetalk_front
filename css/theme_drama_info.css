@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background:black;
+}
+.phone-wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+}
+.phone-body {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    background-image: url('../images/background2.png');
+    background-color: white;
+}
+/*------------nav-bar------------*/
+#nav-bar{
+    top: 0; 
+    position: fixed !important; 
+    width:100%; 
+    z-index: 1000000;
+    max-width: 750px;
+}
+.nav-wrapper {
+    background-color: #1e8adc;
+}
+nav {
+    box-shadow: none;
+    border-bottom: none;
+    height: 51px;
+}
+
+.back {
+    float: left;
+    padding-left: 14px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.nav-wrapper .nav-title {
+    font-size: 20px;
+}
+.login {
+    float: right;
+    padding-right: 14px;
+    margin-top: 5px
+}
+/*------------drama_info_list------------*/
+.heart {
+    width:23px;
+    margin-top:10px;
+    margin-right:18px;
+    float:right;
+}
+.drama {
+    margin-top:15px;
+}
+
+.drama_img{
+    padding:0;
+    width:95%;
+}
+.drama2 {
+    padding:0;
+    width:95%;
+    display:block;
+    width:100%;
+}
+
+.chip {
+    display: inline-block;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    line-height: 20px;
+    padding: 0 6px;
+    border-radius: 16px;
+    background-color: #1E8ADC;
+    margin-top:10px;
+    margin-left:15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 2px solid white;
+}
+
+.date {
+    display: inline-block;
+    color: white;
+}
+
+.drama_num {
+    display:inline-block;
+    float: left;
+    font-size:22px;
+    color:black;
+    margin:15px;
+}
+
+.drama_date {
+    display:inline-block;
+    font-size:20px;
+    color:grey;
+    margin:15px;
+}
+
+.time {
+    margin-left:4%;
+    margin-top:4%;
+    width:20%;
+    float:left;
+}
+
+.lock {
+    margin-left:5%;
+    margin-top:6%;
+    width:15%;
+    float:left;
+}
+
+.time_text1{
+    position: absolute;
+    left:25%; 
+    top:33%;
+    color:white;
+    font-size:1.3vw;
+}
+
+.time_text2{
+    position: absolute;
+    left:25%; 
+    top:33%;
+    color:white;
+    font-size:1.3vw;
+}
+
+
+.collection,
+a.collection-item  {
+    display: block;
+    transition: .25s;
+    color: #26a69a;
+    text-align:right;
+    border-left:0;
+    border-right:0;
+}
+
+.box1 {
+    position:relative;
+    padding:0;
+}
+.box2 {
+    text-align:left;
+    width:28%;
+    height:23%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color:#1E8ADC;
+}

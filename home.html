@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link type="text/css" rel="stylesheet" href="./css/theme_home.css" />
+
+</head>
+
+<body>
+    <div class="phone-wrapper">
+        <header>
+            <nav id="nav-bar">
+                <div class="nav-wrapper">
+                    <a href="#!" class="home"><img src="./images/home.PNG" alt="home_icon" width="22px" height="23px" /></a>
+                    <span class="nav-title">불톡</span>
+                    <a href="#!" class="login"><img src="./images/login_icon@3x.png" alt="login_icon" width="23px" /></a>
+                </div>
+            </nav>
+        </header>
+        <div class="phone-body" id="drama_list">
+            <div class="collection">
+                <div class="row">
+                    <div class="col s12">
+                        <a href="drama_info.html" class="collection-item" id="first_drama">
+                            <div><span id="broadcaster1">SBS</span><span id="air_time1">월·화 오후 2:00~</span></div>
+                            <div id="drama_title1">질투의 화신<span class="badge"><img src="./images/dislike1@3x.png" alt="login_like" width="20px" height="21px" onclick="changeImage(this)"/></span></div>
+                            <img class="drama_bigimg" src="./images/drama_big.png" alt="drama_post">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s6">
+                        <a href="#!" class="collection-item theothers_drama">
+                            <img class="drama_postimg" src="./images/dal_post.PNG" alt="drama_post">
+                            <div class="drama_title">달의 연인-보보경심려<span><img src="./images/like2@3x.png" alt="login_like" width="14px" height="13px" onclick="changeImage(this)"/></span></div>
+                            <div><span class="broadcaster">SBS</span><span class="air_time">월·화 오후 2:00~</span></div>
+                        </a>
+                    </div>
+                    <div class="col s6">
+                        <a href="#!" class="collection-item theothers_drama">
+                            <img class="drama_postimg" src="./images/monster_post.PNG" alt="drama_post">
+                            <div class="drama_title">몬스터<span><img src="./images/dislike2@3x.png" alt="login_like" width="14px" height="13px" onclick="changeImage(this)"/></span></div>
+                            <div><span class="broadcaster">MBC</span><span class="air_time">월·화 오후 11:00~</span></div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+
+        <script src="js/changeLikeImg.js"></script>
+</body>
+
+</html>
