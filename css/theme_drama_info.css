@@ -30,6 +30,7 @@ html, body {
 .nav-wrapper {
     background-color: #1e8adc;
 }
+
 nav {
     box-shadow: none;
     border-bottom: none;
@@ -42,14 +43,17 @@ nav {
     margin-top: 5px;
     margin-right: 5px;
 }
-.nav-wrapper .nav-title {
+.nav-wrapper .brand-logo {
     font-size: 20px;
+    text-align: center;
+    float:center;
 }
 .login {
     float: right;
     padding-right: 14px;
     margin-top: 5px
 }
+
 /*------------drama_info_list------------*/
 .heart {
     width:23px;
@@ -162,4 +166,5 @@ a.collection-item  {
     left:0px;
     top:0px;
     background-color:#1E8ADC;
+    opacity: 0.8;
 }
