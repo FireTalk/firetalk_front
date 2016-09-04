@@ -16,8 +16,7 @@ html, body {
     position: relative;
     min-height: 100%;
     width: 100%;
-    background-image: url('../images/background1.png');
-    background-color: #f1f1f1;
+    background-color: white;
 }
 /*------------nav-bar------------*/
 #nav-bar{
@@ -26,42 +25,68 @@ html, body {
     width:100%; 
     z-index: 1000000;
     max-width: 750px;
+    color: black;
 }
 .nav-wrapper {
-    background-color: #dc1e99;
+    background-color: white;
+    color: black;
 }
 nav {
     box-shadow: none;
-    border-bottom: none;
-    height: 51px;
+    border-bottom: #e5e5e5 1px solid;
+    height: 47px;
+    color: black;
 }
 
 .home {
     float: left;
     padding-left: 14px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-right: 5px;
+}
+
+.home img {
+    width: 18px;
 }
 
 .login {
     float: right;
     padding-right: 14px;
-    margin-top: 5px
+    margin-top: 0px
+}
+
+.login img {
+    width: 15px;
+}
+
+nav .brand-logo {
+    position: absolute;
+    height: inherit;
+    top: -6px;
+    font-size: 21px;
+    color: black;
+    font-family: DINAlternate;
+    font-weight: bold;
+    letter-spacing: -3px;
 }
 /*------------drama_list------------*/
 #drama_list {
     border: none;
-    margin-top: 51px;
+    margin-top: 47px;
     position: relative;
 }
 .collection .collection-item {
     padding: 0;
     background-color: transparent;
+    border-bottom: none;
 }
 div.collection {
     border: none;
 }
 div.row {
+    margin-bottom: 0;
+}
+div.row:first-child, div.row:last-child {
     margin-bottom: 0;
     border-bottom: #e3e3e3 1px solid;
 }
@@ -70,7 +95,7 @@ div.row {
 }
 div.col.s6{
     border-right: #e3e3e3 1px solid;
-    background-color: #f1f1f1;
+    background-color: white;
     width: 100%;
 }
 div.col.s6:last-child{
@@ -82,16 +107,16 @@ div.col.s6:last-child{
 }
 
 #first_drama {
-    color: white;
-    padding: 12px 12px 8px 12px;
+    color: black;
+    padding: 17px 12px 8px 12px;
 }
 .drama_bigimg {
     padding: 0;
     width: 100%;
 }
 #broadcaster1 {
-    border: white 1.5px solid;
-    padding: 1px 5px 1px 5px;
+    border: #252525 1px solid;
+    padding: 0px 5px 0px 5px;
     border-radius: 10px 10px 10px 10px;
     font-size: small;
 }
@@ -99,14 +124,38 @@ div.col.s6:last-child{
     margin-left: 5px;
 }
 #drama_title1 {
-    font-size: 25px;
+    font-size: 28px;
+    color: #252525;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -3px;
+    height: 28px;
 }
-span.badge {
-    right: 0px;
+#first_drama_like {
+    position: absolute;
+    top: 59px;
+    right: 12px;
 }
 
-a.collection-item.theothers_drama {
-    padding: 13px 13px 10px 13px;
+a.collection-item.theothers_drama_first {
+    padding: 13px 0px 0px 13px;
+}
+div.theothers_first {
+    padding: 0px 13px 10px 0px;
+    border-bottom: #e3e3e3 1px solid;
+}
+div.row:last-child div.theothers_first:last-child {
+    border-bottom: none;
+}
+a.collection-item.theothers_drama_second {
+    padding: 13px 13px 0px 0px;
+}
+div.theothers_second {
+    padding: 0px 0px 10px 13px;
+    border-bottom: #e3e3e3 1px solid;
+}
+div.row:last-child div.theothers_second:last-child {
+    border-bottom: none;
 }
 .drama_postimg {
     padding: 0;
@@ -120,17 +169,17 @@ a.collection-item.theothers_drama {
     word-spacing: -3px;
 }
 .drama_title span img {
-    margin-left: 4px;
+    float: right;
 }
 .broadcaster {
-    border: #a9a9a9 1.5px solid;
+    border: #777777 1.5px solid;
     padding: 0px 5px 0px 5px;
     border-radius: 10px 10px 10px 10px;
     font-size: x-small;
-    color: #a9a9a9;
+    color: #777777;
 }
 .air_time {
     margin-left: 5px;
-    color: #a9a9a9;
+    color: #777777;
     font-size: x-small;
 }
