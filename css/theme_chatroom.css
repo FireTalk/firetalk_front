@@ -183,6 +183,7 @@ form {
     bottom: 0;
     height: 50px;
     width: 100%;
+    max-width: 750px;
 }
 
 #m {
