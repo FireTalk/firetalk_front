@@ -76,7 +76,7 @@ nav .brand-logo {
     letter-spacing: -3px;
 }
 /*------------------------*/
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+input:not([type]), input[type=text], input[type=password], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid black;
@@ -84,6 +84,23 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     outline: none;
     height: 3rem;
     width: 80%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    color:black;
+    padding-left: 70px;
+}
+
+input[type=email], input[type=number_check] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 72%;
     font-size: 1rem;
     margin: 0 0 20px 0;
     box-shadow: none;
@@ -114,14 +131,30 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     padding: 0;
     margin-top: 10px;
 }
-
+.input_title2 {
+    position: relative;
+    top: -70px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 10px;
+}
 .input_btn {
+    /*
     display: inline;
     float: right;
     display: inline-block;
     font-size: 15px;
     padding: 0;
     margin-right: 10%;
+    */
+    left: 180px;
+    position: relative;
+    top: -65px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 10px;
 }
 
 .test {
