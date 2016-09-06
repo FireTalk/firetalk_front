@@ -32,15 +32,13 @@ $(document).ready(function () {
                 broadcaster_1 = item.broadcaster;
                 air_time_1 = item.air_time;
 
-                if ((drama_list.length-1) === index) {
+                if ((drama_list.length-1) === index) { // 홀수개로 드라마 리스트 목록이 끝날 경우
                     $('.collection').addTheOthersDrama2(drama_postimg_1, drama_title_1, drama_like_1, broadcaster_1, air_time_1);
                 }
             } else if (index % 2 === 1) { // 두번째
                 $('.collection').addTheOthersDrama(drama_postimg_1, drama_title_1, drama_like_1, broadcaster_1, air_time_1, item.drama_postimg, item.drama_title, item.drama_like, item.broadcaster, item.air_time);
             }
 
-            //마지막 홀수개 나타내기
-            //$('.collection').addTheOthersDrama(drama_postimg_1, drama_title_1, drama_like_1, broadcaster_1, air_time_1);
         });
     });
 

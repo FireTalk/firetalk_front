@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background:black;
+}
+.phone-wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+}
+.phone-body {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    background-color: white;
+}
+/*------------logo------------*/
+.login {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#logo a {
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 90px;
+    padding: 0;
+    height: 100px;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+}
+
+.login h4 {
+    color: black;
+    margin-top: 0;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    font-family: DINAlternate;
+}
+/*------------form------------*/
+#input_id,
+#input_password {
+    border-bottom: 1.9px solid #252525;;
+    margin-bottom: 0px;
+    height: 24px;
+    text-indent: 60px;
+    line-height: 51px;
+}
+.row .col {
+    padding: 0;
+}
+.input_title{
+    position: absolute;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #252525;
+}
+input#input_id.validate,
+input#input_password.validate {
+    padding-bottom: 8px;
+}
+
+#button_login {
+    background-color: white;
+    color: #252525;
+    border: 1px solid #252525;
+    height: 46px;
+    width: 100%;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 46px;
+}
+
+#button_signup {
+    background-color: #252525;
+    border: 1px solid #252525;
+    height: 46px;
+    width: 100%;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 46px;
+}
+#button_signup_facebook,
+#button_signup_email {
+    height: 46px;
+    width: 48.8%;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 46px;
+    padding: 0;
+}
+#button_signup_facebook {
+    background-color: #233edb;
+    border: 1px solid #233edb;
+    margin-right: 2.4%;
+}
+#button_signup_email {
+    background-color: #ff0453;
+    border: 1px solid #ff0453;
+}
+
+#non-members, 
+#id_find, 
+#password_find {
+    color: #252525;
+    font-size: 13.7px;
+    letter-spacing: -1px;
+    font-family: NotoSansCJKkr;
+}
