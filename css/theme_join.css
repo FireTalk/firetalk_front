@@ -76,7 +76,7 @@ nav .brand-logo {
     letter-spacing: -3px;
 }
 /*------------------------*/
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+input:not([type]), input[type=email], input[type=number_check], input[type=text], input[type=password], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid black;
@@ -94,7 +94,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 
 .input-field label {
-    padding-left: 30px;
+    padding-left: 25px;
     color: #9e9e9e;
     position: absolute;
     top: 0.8rem;
@@ -114,14 +114,22 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     padding: 0;
     margin-top: 10px;
 }
-
 .input_btn {
+    /*
     display: inline;
     float: right;
     display: inline-block;
     font-size: 15px;
     padding: 0;
     margin-right: 10%;
+    */
+    left: 240px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 10px;
 }
 
 .test {
