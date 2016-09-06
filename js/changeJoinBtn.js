@@ -6,6 +6,6 @@ btn_signup.click( function() {
     
     btn_position.append(
         $('<a>').attr('class','waves-effect waves-light btn-large').attr('id','button_signup_facebook').attr('href','#!').text('페이스북'),
-        $('<a>').attr('class','waves-effect waves-light btn-large').attr('id','button_signup_email').attr('href','#!').text('이메일 인증')
+        $('<a>').attr('class','waves-effect waves-light btn-large').attr('id','button_signup_email').attr('href','./join.html').text('이메일 인증')
     )
 });

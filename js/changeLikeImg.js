@@ -16,9 +16,19 @@ img_dislike2.src = "./images/dislike2@3x.png";
 function changeImage(image) {
     //alert(document.images[2].src.replace(/^.*\//, ''));
 
-    if(image.src.replace(/^.*\//, '') === 'like.png') {
+    if (image.src.replace(/^.*\//, '') === 'like.png') {
         image.src = img_dislike1.src;
     } else if (image.src.replace(/^.*\//, '') === 'dislike.png') {
         image.src = img_like1.src;
-    } 
+    }
+}
+
+function changeTextOnOff(image) {
+    var on_off = document.getElementById("onoff");
+
+    if (on_off.innerText === "on") {
+        on_off.innerText = "off";
+    } else if (on_off.innerText === "off") {
+        on_off.innerText = "on";
+    }
 }

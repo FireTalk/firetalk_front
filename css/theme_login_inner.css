@@ -26,15 +26,16 @@ html, body {
 }
 
 #logo a {
-    background-image: url(../images/home.png);
+    background-image: url(../images/user.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: auto 90px;
+    background-size: auto 96px;
     padding: 0;
-    height: 100px;
+    height: 96px;
     text-indent: -9999px;
     overflow: hidden;
     display: block;
+    margin-bottom: 6px;
 }
 
 .login h4 {

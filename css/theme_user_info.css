@@ -19,34 +19,34 @@ html, body {
     background-color: white;
 }
 /*------------logo------------*/
-.login {
+.user_info {
     margin: 0 auto;
     text-align: center;
     padding-top: 100px;
 }
 
-#logo a {
-    background-image: url(../images/home.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto 90px;
+#logo img{
     padding: 0;
-    height: 100px;
-    text-indent: -9999px;
     overflow: hidden;
-    display: block;
+    margin-bottom: 6px;
 }
 
-.login h4 {
+.user_info h4 {
     color: black;
     margin-top: 0;
-    letter-spacing: -0.5px;
+    font-size: 30px;
+    letter-spacing: -1px;
     font-weight: bold;
-    font-family: DINAlternate;
+    font-family: AppleSDGothicNeo;
+}
+
+h4 img {
+    margin-bottom: 4px;
 }
 /*------------form------------*/
 #input_id,
-#input_password {
+#input_password,
+#input_num {
     border-bottom: 1.9px solid #252525;;
     margin-bottom: 0px;
     height: 24px;
@@ -57,7 +57,7 @@ html, body {
     padding: 0;
 }
 .row {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .input_title{
     position: absolute;
@@ -68,11 +68,12 @@ html, body {
     color: #252525;
 }
 input#input_id.validate,
-input#input_password.validate {
+input#input_password.validate,
+input#input_num.validate {
     padding-bottom: 8px;
 }
 
-#button_login {
+#button_change {
     background-color: white;
     color: #252525;
     border: 1px solid #252525;
@@ -88,7 +89,7 @@ input#input_password.validate {
     line-height: 46px;
 }
 
-#button_signup {
+#button_logout {
     background-color: #252525;
     border: 1px solid #252525;
     height: 46px;
@@ -100,35 +101,4 @@ input#input_password.validate {
     border-radius: 0;
     box-shadow: none;
     line-height: 46px;
-}
-#button_signup_facebook,
-#button_signup_email {
-    height: 46px;
-    width: 48.8%;
-    font-size: 14px;
-    font-family: NotoSansCJKkr;
-    font-weight: bold;
-    letter-spacing: -1px;
-    border-radius: 0;
-    box-shadow: none;
-    line-height: 46px;
-    padding: 0;
-}
-#button_signup_facebook {
-    background-color: #233edb;
-    border: 1px solid #233edb;
-    margin-right: 2.4%;
-}
-#button_signup_email {
-    background-color: #ff0453;
-    border: 1px solid #ff0453;
-}
-
-#non-members, 
-#id_find, 
-#password_find {
-    color: #252525;
-    font-size: 13.7px;
-    letter-spacing: -1px;
-    font-family: NotoSansCJKkr;
 }

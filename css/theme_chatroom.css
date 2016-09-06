@@ -49,13 +49,13 @@ nav {
     width: 22px;
 }
 
-.on {
+#on {
     float: right;
     padding-right: 14px;
-    margin-top: 0px
+    margin-top: 0px;
+    cursor: pointer;
 }
-
-.on img {
+#on img {
     width: 19px;
 }
 #onoff {

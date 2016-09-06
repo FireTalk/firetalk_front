@@ -38,7 +38,6 @@ $(document).ready(function () {
         { profile: 'profile1.png', nickname: '공블리', msg: '제가 봤을 때 이거 작가가 약하고 쓴 것이 틀림없음', people: '24', time: '오후 6:16' }
     ];
 
-
     // 배열>>메시지 리스트 보여주기
     $.each(message_list, function (index, item) {
         $(function () {
