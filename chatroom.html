@@ -22,7 +22,7 @@
                 <div class="nav-wrapper">
                     <a href="#!" class="back"><img src="./images/back.png" alt="back_icon" /></a>
                     <span class="brand-logo center"><img src="./images/clock.png" alt="clock_icon"><span id="chatroom_name"></span></span>
-                    <div id="on" onclick="changeTextOnOff()"><img src="./images/on.png" alt="login_icon" /><span id="onoff">on</span></div>
+                    <div id="on" onclick="changeTextOnOff()"><img src="./images/on.png" alt="login_icon" /><span id="onoff">ON</span></div>
                 </div>
             </nav>
         </header>
@@ -33,15 +33,56 @@
                 </ul>
             </div>
 
-            <div class="row">
-                <form class="col s12" action="">
-                    <button id="button_plus" class="btn waves-effect waves-light">+</button>
-                    <input id="m" autocomplete="off" />
-                    <button id="button_submit" class="btn waves-effect waves-light" type="button">전송</button>
-                </form>
+        </div>
+
+        
+        <div class="row" id="input_area">
+            <form class="col s12" id="form_input">
+            </form>
+
+        </div>
+
+<!--
+        <div class="row" id="input_area">
+            <form class="col s12" id="form_input">
+
+                <div id="button_plus" class="btn waves-effect waves-light"><img src="./images/on.png" alt="emiticon_icon" /></div>
+                <div id="wrap"><input id="m" autocomplete="off" /></div>
+                <button id="button_submit" class="btn waves-effect waves-light" type="button">전송</button>
+
+            </form>
+
+            <div id="emoticon_area">
+                <div class="carousel carousel-slider center" data-indicators="true">
+                    <div class="carousel-item" href="#one!">
+                        <div id="emoticon_collection">
+                            <div class="row emoticon_row">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                            </div>
+                            <div class="row emoticon_row">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                                <img class="col s3 emoticon" src="images/emoticon/emoticon_test.png">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" href="#two!">
+                        <h2>Second Panel</h2>
+
+                    </div>
+                    <div class="carousel-item" href="#three!">
+                        <h2>Third Panel</h2>
+                    </div>
+                </div>
             </div>
 
         </div>
+
     </div>
 
     <!--Import jQuery before materialize.js-->
@@ -50,8 +91,14 @@
 
     <script src="js/changeLikeImg.js"></script>
     <script src="js/getMessage.js"></script>
-    <script src="js/sendMessage.js"></script>
     <script src="js/nowTime.js"></script>
+    <script src="js/resizingChatroom.js"></script>
+    
+
+    
+    <script src="js/sendTextInput.js"></script>
+    <!--
+    <script src="js/emoticonCarousel.js"></script>-->
 </body>
 
 </html>

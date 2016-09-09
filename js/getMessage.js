@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     // 스크롤 하단으로 이동시키기
     window.onload = function () {
-        $('body').scrollTop($(document).height());
+        $('.phone-body').scrollTop($('.phone-body')[0].scrollHeight);
     }
 
     //채팅방 이름

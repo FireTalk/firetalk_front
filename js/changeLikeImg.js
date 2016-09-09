@@ -26,9 +26,9 @@ function changeImage(image) {
 function changeTextOnOff(image) {
     var on_off = document.getElementById("onoff");
 
-    if (on_off.innerText === "on") {
-        on_off.innerText = "off";
-    } else if (on_off.innerText === "off") {
-        on_off.innerText = "on";
+    if (on_off.innerText === "ON") {
+        on_off.innerText = "OFF";
+    } else if (on_off.innerText === "OFF") {
+        on_off.innerText = "ON";
     }
 }
