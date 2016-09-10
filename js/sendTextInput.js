@@ -86,7 +86,6 @@ $(document).ready(function () {
             // 이모티콘 누르면 선택한 이모티콘 입력창 위쪽에 나타내기
             $('.emoticon').on("click", function () {
                 emoticon_src = $(this).attr('src');
-                alert('4');
 
                 if (select_emoticon === 0) { // 처음 선택한 경우
                     $('.carousel.carousel-slider').before(
@@ -141,7 +140,7 @@ $(document).ready(function () {
 
                 if (text_input === 0 && select_emoticon === 0) { // 아무것도 보내지 않음
                     console.log("입력을 안함");
-                    
+
                 } else if (text_input === 1 && select_emoticon === 0) { // 텍스트만 보내기
 
                     // 이모티콘 영역 삭제
