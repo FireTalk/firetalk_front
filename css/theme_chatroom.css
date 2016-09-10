@@ -14,7 +14,7 @@ html, body {
     min-height: 100%;
     background-color: white;
 }
-/*
+
 .phone-body {
     position: relative;
     min-height: 95%;
@@ -22,8 +22,8 @@ html, body {
     background-color: white;
     overflow-y: scroll;
     height: 95%;
-}*/
-
+}
+/*
 .phone-body {
     position: relative;
     min-height: 60%;
@@ -31,7 +31,7 @@ html, body {
     background-color: white;
     overflow-y: scroll;
     height: 60%;
-}
+}*/
 /*------------nav-bar------------*/
 #nav-bar{
     top: 0; 
