@@ -18,7 +18,6 @@ $(document).ready(function () {
             $('.collection').addFirstDrama(item.drama_title1, item.start_time, item.broadcaster1, item.air_time1, item.drama_bigimg, item.first_drama_like);
         });
     });
-
     
     // 나머지 드라마
     var drama_postimg_1, drama_title_1, drama_like_1, broadcaster_1, air_time_1;
@@ -58,13 +57,14 @@ $(document).ready(function () {
                         ),
                         $('<img>').attr('class', 'drama_bigimg').attr('src', drama_bigimg).attr('alt', 'drama_post')
                     ),
-                    $('<img>').attr('id', 'first_drama_like').attr('src', first_drama_like).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
+                    $('<img>').attr('class', 'like_function').attr('id', 'first_drama_like').attr('src', first_drama_like).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
                 )
             )
         )
     } //addFirstDrama_end
 
     // 나머지 드라마 리스트 보여주기
+    // 짝수개로 드라마 리스트 목록이 끝날 경우 사용할 함수
     $.fn.addTheOthersDrama = function (drama_postimg1, drama_title1, drama_like1, broadcaster1, air_time1, drama_postimg2, drama_title2, drama_like2, broadcaster2, air_time2) {
             this.append(
                 $('<div>').attr('class', 'row').append(
@@ -74,7 +74,7 @@ $(document).ready(function () {
                                 $('<img>').attr('class', 'drama_postimg').attr('src', drama_postimg1).attr('alt', 'drama_post'),
                                 $('<div>').attr('class', 'drama_title').text(drama_title1).append(
                                     $('<span>').append(
-                                        $('<img>').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
+                                        $('<img>').attr('class', 'like_function').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
                                     )
                                 ),
                                 $('<div>').append(
@@ -90,7 +90,7 @@ $(document).ready(function () {
                                 $('<img>').attr('class', 'drama_postimg').attr('src', drama_postimg2).attr('alt', 'drama_post'),
                                 $('<div>').attr('class', 'drama_title').text(drama_title2).append(
                                     $('<span>').append(
-                                        $('<img>').attr('src', drama_like2).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
+                                        $('<img>').attr('class', 'like_function').attr('src', drama_like2).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
                                     )
                                 ),
                                 $('<div>').append(
@@ -105,6 +105,7 @@ $(document).ready(function () {
 
     } //addTheOthersDrama_end
 
+    // 홀수개로 드라마 리스트 목록이 끝날 경우 사용할 함수
     $.fn.addTheOthersDrama2 = function (drama_postimg1, drama_title1, drama_like1, broadcaster1, air_time1) {
             this.append(
                 $('<div>').attr('class', 'row').append(
@@ -114,7 +115,7 @@ $(document).ready(function () {
                                 $('<img>').attr('class', 'drama_postimg').attr('src', drama_postimg1).attr('alt', 'drama_post'),
                                 $('<div>').attr('class', 'drama_title').text(drama_title1).append(
                                     $('<span>').append(
-                                        $('<img>').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
+                                        $('<img>').attr('class', 'like_function').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
                                     )
                                 ),
                                 $('<div>').append(
