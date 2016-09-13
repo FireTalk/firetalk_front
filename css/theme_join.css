@@ -93,7 +93,7 @@ input#input_email.validate {
     padding-bottom: 8px;
 }
 
-#button_login {
+#button_join {
     background-color: white;
     color: #252525;
     border: 1px solid #252525;
@@ -107,42 +107,6 @@ input#input_email.validate {
     border-radius: 0;
     box-shadow: none;
     line-height: 46px;
-}
-
-#button_signup {
-    background-color: #252525;
-    border: 1px solid #252525;
-    height: 46px;
-    width: 100%;
-    font-size: 14px;
-    font-family: NotoSansCJKkr;
-    font-weight: bold;
-    letter-spacing: -1px;
-    border-radius: 0;
-    box-shadow: none;
-    line-height: 46px;
-}
-#button_signup_facebook,
-#button_signup_email {
-    height: 46px;
-    width: 48.8%;
-    font-size: 14px;
-    font-family: NotoSansCJKkr;
-    font-weight: bold;
-    letter-spacing: -1px;
-    border-radius: 0;
-    box-shadow: none;
-    line-height: 46px;
-    padding: 0;
-}
-#button_signup_facebook {
-    background-color: #233edb;
-    border: 1px solid #233edb;
-    margin-right: 2.4%;
-}
-#button_signup_email {
-    background-color: #ff0453;
-    border: 1px solid #ff0453;
 }
 
 #non-members, 
