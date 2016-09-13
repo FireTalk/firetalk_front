@@ -44,27 +44,6 @@ nav {
     color: black;
 }
 
-.home {
-    float: left;
-    padding-left: 14px;
-    margin-top: 0px;
-    margin-right: 5px;
-}
-
-.home img {
-    width: 18px;
-}
-
-.login {
-    float: right;
-    padding-right: 14px;
-    margin-top: 0px
-}
-
-.login img {
-    width: 15px;
-}
-
 nav .brand-logo {
     position: absolute;
     height: inherit;
@@ -75,116 +54,102 @@ nav .brand-logo {
     font-weight: bold;
     letter-spacing: -3px;
 }
-/*------------------------*/
-input:not([type]), input[type=email], input[type=number_check], input[type=text], input[type=password], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0;
-    outline: none;
-    height: 3rem;
-    width: 80%;
-    font-size: 1rem;
-    margin: 0 0 20px 0;
-    box-shadow: none;
-    box-sizing: content-box;
-    transition: all 0.3s;
-    color:black;
-    padding-left: 70px;
-}
 
-.input-field label {
-    padding-left: 25px;
-    color: #9e9e9e;
-    position: absolute;
-    top: 0.8rem;
-    font-size: 1rem;
-    cursor: text;
-    transition: .2s ease-out;
-}
-
-.input-field {
-    position: absolute;
-}
-.input_title {
-    position: relative;
-    top: -60px;
-    display: inline-block;
-    font-size: 15px;
-    padding: 0;
-    margin-top: 10px;
-}
-.input_btn {
-    /*
-    display: inline;
-    float: right;
-    display: inline-block;
-    font-size: 15px;
-    padding: 0;
-    margin-right: 10%;
-    */
-    left: 240px;
-    position: relative;
-    top: 10px;
-    display: inline-block;
-    font-size: 15px;
-    padding: 0;
-    margin-top: 10px;
-}
-
-.test {
-    padding: 20px 0;
-    margin : auto;
-    width: 300px;
-    height: 60px;
-}
-
-.btn, .btn-large {
-    margin-left: 10px;
-    text-decoration: none;
-    color: black;
-    background-color: white;
+.join {
+    margin: 0 auto;
     text-align: center;
-    letter-spacing: .5px;
-    transition: .2s ease-out;
-    cursor: pointer;
-    box-shadow: none;
+    padding-top: 30%;
 }
 
-.btn_big{
-    border: solid 1px;
-    border-radius: 0;
-    display: inline-block;
-    height: 50px;
-    width: 280px;
-    outline: 0;
+/*------------form------------*/
+#input_password,
+#input_email,
+#input_nick,
+#input_pwCheck {
+    border-bottom: 1.9px solid #252525;;
+    margin-bottom: 0px;
+    height: 24px;
+    text-indent: 60px;
+    line-height: 51px;
+}
+.row .col {
     padding: 0;
-    text-transform: uppercase;
-    vertical-align: middle;
-    box-shadow: none;
-    line-height: 50px;
+}
+.row {
+    margin-bottom: 12px;
+}
+.input_title{
+    position: absolute;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #252525;
+}
+input#input_password.validate,
+input#input_pwCheck.validate,
+input#input_nick.validate,
+input#input_email.validate {
+    padding-bottom: 8px;
 }
 
-.btn_small{
-    border: solid 1px;
+#button_login {
+    background-color: white;
+    color: #252525;
+    border: 1px solid #252525;
+    height: 46px;
+    width: 100%;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
     border-radius: 0;
-    display: inline-block;
-    height: 28px;
-    width: 48px;
-    outline: 0;
-    padding: 0;
-    text-transform: uppercase;
-    vertical-align: middle;
     box-shadow: none;
-    line-height: 30px;
-    margin-bottom: 0;
-    float:right;
-    margin-right:40px;
-    cursor: pointer;
+    line-height: 46px;
 }
 
-.btn:hover, .btn-large:hover {
-    background-color: black;
-    color: white;
+#button_signup {
+    background-color: #252525;
+    border: 1px solid #252525;
+    height: 46px;
+    width: 100%;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-radius: 0;
     box-shadow: none;
+    line-height: 46px;
+}
+#button_signup_facebook,
+#button_signup_email {
+    height: 46px;
+    width: 48.8%;
+    font-size: 14px;
+    font-family: NotoSansCJKkr;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 46px;
+    padding: 0;
+}
+#button_signup_facebook {
+    background-color: #233edb;
+    border: 1px solid #233edb;
+    margin-right: 2.4%;
+}
+#button_signup_email {
+    background-color: #ff0453;
+    border: 1px solid #ff0453;
+}
+
+#non-members, 
+#id_find, 
+#password_find {
+    color: #252525;
+    font-size: 13.7px;
+    letter-spacing: -1px;
+    font-family: NotoSansCJKkr;
 }
