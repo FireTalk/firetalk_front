@@ -8,7 +8,7 @@ html, body {
 .phone-wrapper {
     width: 100%;
     height: 100%;
-    max-width: 750px;
+    max-width: 360px;
     margin: 0 auto;
     position: relative;
     min-height: 100%;
@@ -38,7 +38,7 @@ html, body {
     position: fixed !important; 
     width:100%; 
     z-index: 1000000;
-    max-width: 750px;
+    max-width: 360px;
     color: black;
 }
 .nav-wrapper {
@@ -320,8 +320,8 @@ form.col.s12 {
     max-width: 750px;
 }
 .carousel.carousel-slider {
-    height: 40%;
-    min-height: 40%;
+    height: 255px;
+    min-height: 255px;
     position: absolute;
 }
 .carousel.carousel-slider .carousel-item {
@@ -337,6 +337,7 @@ form.col.s12 {
     margin: 0 auto;
     bottom: -14px;
     position: relative;
+    margin-top: 2px;
 }
 img.col.s3.emoticon {
     padding: 3% 3% 3% 3%;
@@ -350,6 +351,8 @@ img.col.s3.emoticon {
 .carousel .indicators .indicator-item {
     background-color: #000000;
     opacity: 0.2;
+    width: 6px;
+    height: 6px;
 }
 
 #select_emoticon_area {

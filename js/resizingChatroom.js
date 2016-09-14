@@ -7,8 +7,11 @@ window.addEventListener('resize', function () {
         $('.phone-body').css('height', body_height + 'px').css('min-height', body_height + 'px');
     } else { // 이모티콘 영역이 있을 경우
         // select_emoticon_area 위치 조정
-        var select_area = $('#select_emoticon_area').height() + 40;
-        $('#select_emoticon_area').css('top', '-'+ select_area +'px');
+        //var select_area = $('#select_emoticon_area').height() + 40;
+        //$('#select_emoticon_area').css('top', '-' + select_area + 'px');
+
+        var body_height = $('.phone-wrapper').height() - 255; // 이모티콘 영역의 크기 258px로 고정
+        $('.phone-body').css('height', body_height + 'px').css('min-height', body_height + 'px');
     }
 
     // 스크롤 맨 아래로

@@ -52,7 +52,9 @@ $(document).ready(function () {
                 emoticon_mode = 1; // 이모티콘 모드
 
                 // phone-body 높이 변경
-                $('.phone-body').css('height', '60%').css('min-height', '60%');
+                //$('.phone-body').css('height', '60%').css('min-height', '60%');
+                body_height = $('.phone-wrapper').height() - 255; // 이모티콘 영역의 크기 258px로 고정
+                $('.phone-body').css('height', body_height + 'px').css('min-height', body_height + 'px');
                 $('.phone-body').scrollTop($('.phone-body')[0].scrollHeight); // 스크롤 맨 아래
 
                 // emoticon_area 나타내주기

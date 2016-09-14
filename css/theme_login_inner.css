@@ -1,3 +1,8 @@
+@media (max-width:320px){html{font-size:8.3px;}}
+@media (min-width:321px) and (max-width:339px){html{font-size:8.5px;}}
+@media (min-width:340px) and (max-width:359px){html{font-size:9px;}}
+@media (min-width:360px){html{font-size:10px;}}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -7,7 +12,7 @@ html, body {
 .phone-wrapper {
     width: 100%;
     height: 100%;
-    max-width: 750px;
+    max-width: 360px;
     margin: 0 auto;
     position: relative;
     min-height: 100%;
@@ -17,12 +22,15 @@ html, body {
     min-height: 100%;
     width: 100%;
     background-color: white;
+    display: table;
 }
 /*------------logo------------*/
 .login {
     margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #logo a {
@@ -50,9 +58,9 @@ html, body {
 #input_password {
     border-bottom: 1.9px solid #252525;;
     margin-bottom: 0px;
-    height: 24px;
+    height: 1.4em;
     text-indent: 60px;
-    line-height: 51px;
+    line-height: 5.1em;
 }
 .row .col {
     padding: 0;
@@ -62,7 +70,7 @@ html, body {
 }
 .input_title{
     position: absolute;
-    font-size: 14px;
+    font-size: 1.4em;
     font-family: NotoSansCJKkr;
     font-weight: bold;
     letter-spacing: -1px;
@@ -71,6 +79,8 @@ html, body {
 input#input_id.validate,
 input#input_password.validate {
     padding-bottom: 8px;
+    font-size: 1.5em;
+    letter-spacing: -0.5px;
 }
 
 #button_login {
@@ -79,7 +89,7 @@ input#input_password.validate {
     border: 1px solid #252525;
     height: 46px;
     width: 100%;
-    font-size: 14px;
+    font-size: 1.4em;
     font-family: NotoSansCJKkr;
     font-weight: bold;
     letter-spacing: -1px;
@@ -94,7 +104,7 @@ input#input_password.validate {
     border: 1px solid #252525;
     height: 46px;
     width: 100%;
-    font-size: 14px;
+    font-size: 1.4em;
     font-family: NotoSansCJKkr;
     font-weight: bold;
     letter-spacing: -1px;
@@ -106,7 +116,7 @@ input#input_password.validate {
 #button_signup_email {
     height: 46px;
     width: 48.8%;
-    font-size: 14px;
+    font-size: 1.4em;
     font-family: NotoSansCJKkr;
     font-weight: bold;
     letter-spacing: -1px;
@@ -129,7 +139,7 @@ input#input_password.validate {
 #id_find, 
 #password_find {
     color: #252525;
-    font-size: 13.7px;
+    font-size: 1.37em;
     letter-spacing: -1px;
     font-family: NotoSansCJKkr;
 }
