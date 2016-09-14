@@ -1,24 +1,16 @@
 $(document).ready(function () {
     // 메인 드라마 리스트 배열
-    var first_drama = [
-        { drama_title1: '질투의 화신 : ', start_time: '20분 후', broadcaster1: 'SBS', air_time1: '오후 12:00 ~ 오후 1:00', drama_bigimg: './images/drama_big.png', first_drama_like: './images/dislike.png' }
-    ];
-
     var drama_list = [
         {drama_postimg: './images/dal_post.PNG', drama_title: '달의 연인-보보경심려', drama_like: './images/like.png', broadcaster: 'SBS', air_time: '월·화 오후 2:00~'},
         {drama_postimg: './images/monster_post.PNG', drama_title: '몬스터', drama_like: './images/dislike.png', broadcaster: 'MBC', air_time: '월·화 오후 11:00~'},
-        {drama_postimg: './images/dal_post.PNG', drama_title: '달의 연인-보보경심려', drama_like: './images/like.png', broadcaster: 'SBS', air_time: '월·화 오후 2:00~'},
-        {drama_postimg: './images/monster_post.PNG', drama_title: '몬스터', drama_like: './images/dislike.png', broadcaster: 'MBC', air_time: '월·화 오후 11:00~'}
+        {drama_postimg: './images/w_post.PNG', drama_title: 'W (더블유)', drama_like: './images/like.png', broadcaster: 'SBS', air_time: '수·목 오후 2:00~'},
+        {drama_postimg: './images/ha_post.PNG', drama_title: '함부로 애틋하게', drama_like: './images/dislike.png', broadcaster: 'KBS2', air_time: '수·목 오후 10:00~'},
+        {drama_postimg: './images/jh_post.PNG', drama_title: '질투의 화신', drama_like: './images/like.png', broadcaster: 'SBS', air_time: '월·화 오후 2:00~'},
+        {drama_postimg: './images/gd_post.PNG', drama_title: '구르미 그린 달빛', drama_like: './images/like.png', broadcaster: 'SBS', air_time: '월·화 오후 11:00~'}
     ];
 
     // 배열 >> 드라마 리스트로 보여주기
-    // 첫번재 드라마
-    $.each(first_drama, function (index, item) {
-        $(function () {
-            $('.collection').addFirstDrama(item.drama_title1, item.start_time, item.broadcaster1, item.air_time1, item.drama_bigimg, item.first_drama_like);
-        });
-    });
-    
+
     // 나머지 드라마
     var drama_postimg_1, drama_title_1, drama_like_1, broadcaster_1, air_time_1;
 
@@ -42,26 +34,6 @@ $(document).ready(function () {
     });
 
     // 함수들
-    // 첫번째 드라마 보여주기
-    $.fn.addFirstDrama = function (drama_title1, start_time, broadcaster1, air_time1, drama_bigimg, first_drama_like) {
-        this.append(
-            $('<div>').attr('class', 'row').append(
-                $('<div>').attr('class', 'col s12').append(
-                    $('<a>').attr('href', 'drama_info.html').attr('class', 'collection-item').attr('id', 'first_drama').append(
-                        $('<div>').attr('id', 'drama_title1').text(drama_title1).append(
-                            $('<span>').attr('id', 'start_time').text(start_time)
-                        ),
-                        $('<div>').append(
-                            $('<span>').attr('id', 'broadcaster1').text(broadcaster1),
-                            $('<span>').attr('id', 'air_time1').text(air_time1)
-                        ),
-                        $('<img>').attr('class', 'drama_bigimg').attr('src', drama_bigimg).attr('alt', 'drama_post')
-                    ),
-                    $('<img>').attr('class', 'like_function').attr('id', 'first_drama_like').attr('src', first_drama_like).attr('alt', 'drama_like').attr('width', '14px').attr('onclike', '')
-                )
-            )
-        )
-    } //addFirstDrama_end
 
     // 나머지 드라마 리스트 보여주기
     // 짝수개로 드라마 리스트 목록이 끝날 경우 사용할 함수

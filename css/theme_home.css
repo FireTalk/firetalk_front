@@ -1,3 +1,8 @@
+@media (max-width:320px){html{font-size:8.3px;}}
+@media (min-width:321px) and (max-width:339px){html{font-size:8.5px;}}
+@media (min-width:340px) and (max-width:359px){html{font-size:9px;}}
+@media (min-width:360px){html{font-size:10px;}}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -7,7 +12,7 @@ html, body {
 .phone-wrapper {
     width: 100%;
     height: 100%;
-    max-width: 750px;
+    max-width: 360px;
     margin: 0 auto;
     position: relative;
     min-height: 100%;
@@ -24,7 +29,7 @@ html, body {
     position: fixed !important; 
     width:100%; 
     z-index: 1000000;
-    max-width: 750px;
+    max-width: 360px;
     color: black;
 }
 .nav-wrapper {
@@ -38,25 +43,25 @@ nav {
     color: black;
 }
 
-.home {
+.login {
     float: left;
     padding-left: 14px;
     margin-top: 0px;
     margin-right: 5px;
 }
 
-.home img {
-    width: 18px;
+.login img {
+    width: 15px;
 }
 
-.login {
+.setting {
     float: right;
     padding-right: 14px;
     margin-top: 0px
 }
 
-.login img {
-    width: 15px;
+.setting img {
+    width: 17px;
 }
 
 nav .brand-logo {
@@ -83,10 +88,13 @@ nav .brand-logo {
 div.collection {
     border: none;
 }
+.collection:last-child {
+    margin-bottom: 0;
+}
 div.row {
     margin-bottom: 0;
 }
-div.row:first-child, div.row:last-child {
+div.row:last-child {
     margin-bottom: 0;
     border-bottom: #e3e3e3 1px solid;
 }
@@ -100,41 +108,6 @@ div.col.s6{
 }
 div.col.s6:last-child{
     border-right-color: transparent;
-}
-
-#first_drama div {
-    margin-bottom: 9px;
-}
-
-#first_drama {
-    color: black;
-    padding: 17px 12px 8px 12px;
-}
-.drama_bigimg {
-    padding: 0;
-    width: 100%;
-}
-#broadcaster1 {
-    border: #252525 1px solid;
-    padding: 0px 5px 0px 5px;
-    border-radius: 10px 10px 10px 10px;
-    font-size: small;
-}
-#air_time1 {
-    margin-left: 5px;
-}
-#drama_title1 {
-    font-size: 28px;
-    color: #252525;
-    font-family: NotoSansCJKkr;
-    font-weight: bold;
-    letter-spacing: -3px;
-    height: 28px;
-}
-#first_drama_like {
-    position: absolute;
-    top: 59px;
-    right: 12px;
 }
 
 a.collection-item.theothers_drama_first {
@@ -165,21 +138,24 @@ div.row:last-child div.theothers_second:last-child {
 }
 .drama_title {
     color: black;
-    font-size: small;
-    word-spacing: -3px;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 .drama_title span img {
     float: right;
+    width: 13px;
 }
 .broadcaster {
     border: #777777 1.5px solid;
     padding: 0px 5px 0px 5px;
     border-radius: 10px 10px 10px 10px;
-    font-size: x-small;
+    font-size: 1.1em;
     color: #777777;
 }
 .air_time {
     margin-left: 5px;
     color: #777777;
-    font-size: x-small;
+    font-size: 1.2em;
 }
