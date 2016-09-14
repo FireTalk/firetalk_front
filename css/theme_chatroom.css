@@ -1,3 +1,8 @@
+@media (max-width:320px){html{font-size:8.3px;}}
+@media (min-width:321px) and (max-width:339px){html{font-size:8.5px;}}
+@media (min-width:340px) and (max-width:359px){html{font-size:9px;}}
+@media (min-width:360px){html{font-size:10px;}}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -116,13 +121,14 @@ li.collection-item.avatar {
 .collection .collection-item.avatar p.msg1 {
     position: relative;
     background-color: #ff0453;
-    margin-right: 78px;
+    margin-right: 5.0em;
     color: white;
-    font-size: 14px;
-    letter-spacing: -1.1px;
+    font-size: 1.4em;
+        letter-spacing: -0.05em;
     padding: 10px;
     margin-bottom: 5px;
     z-index: 2;
+    line-height: initial;
 }
 .collection .collection-item.avatar p.msg1:before {
     content: '';
@@ -172,15 +178,25 @@ li.collection-item.avatar.my-msg {
     padding-right: 10px;
     float: right;
 }
+
+li.collection-item.avatar.my-msg2 {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    float: right;
+}
+
 .collection .collection-item.avatar p.msg2 {
     background-color: #333333;
-    margin-left: 151px;
+    margin-left: 10.1em;
     margin-right: 9px;
     color: white;
-    font-size: 14px;
-    letter-spacing: -1.1px;
+    font-size: 1.4em;
+        letter-spacing: -0.05em;
     padding: 10px;
     margin-bottom: 5px;
+    line-height: initial;
 }
 .collection .collection-item.avatar p.msg2:before {
     content: '';
@@ -265,7 +281,7 @@ form {
     float: left;
     text-indent: 10px;
     font-size: 12px;
-    letter-spacing: -1px;
+        letter-spacing: -0.05em;
     color: #252525;
 }
 #m:focus {
@@ -312,6 +328,7 @@ form.col.s12 {
     padding: 0px;
 }
 
+/*------------emoticon-------------*/
 #emoticon_area {
     background: #f8f8f8;
     position: relative;
@@ -358,7 +375,7 @@ img.col.s3.emoticon {
 #select_emoticon_area {
     position: absolute;
     top: -110px;
-    z-index: 10;
+    z-index: 1000000;
     width: inherit;
     height: initial;
     padding-bottom: 20px;
@@ -381,14 +398,19 @@ img.col.s3.emoticon {
     cursor: pointer;
 }
 
-
-
 .send_emoticon {
     float: right;
     padding: 11px;
     margin-bottom: 5px;
     width: 53%;
 }
+.send_emoticon2 {
+    float: right;
+    padding: 11px;
+    margin-bottom: 0;
+    width: 53%;
+}
+
 .send_emoticon_time {
     float:left;
     position: absolute;
@@ -411,4 +433,43 @@ img.col.s3.emoticon {
     font-weight: bold;
     text-align: right;
     color: #fa655e;
+}
+
+/*------------bottom_message-------------*/
+#bottom_message {
+    position: absolute;
+    top: -63px;
+    left: 9px;
+    z-index: 10;
+    width: 91%;
+    height: 56px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding: 10.1px 22.4px 9.9px 9.6px;
+    background-color: white;
+    border: solid #c9c9c9 1px;
+}
+#message_profile {
+    z-index: 20;
+    width: 40px;
+    position: absolute;
+    float: left;
+    width: 40px;
+}
+#bottom_text {
+    position: absolute;
+    float: left;
+    left: 58px;
+    font-size: 1.2em;
+    letter-spacing: -0.9px;
+    width: 68.6%;
+    height: 36px;
+    overflow: hidden;
+}
+#scroll_bottom {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 12px;
+    cursor: pointer;
 }
