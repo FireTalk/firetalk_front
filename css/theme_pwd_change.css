@@ -55,7 +55,7 @@ nav .brand-logo {
     letter-spacing: -3px;
 }
 
-.join {
+.pwd_change {
     margin: 0 auto;
     text-align: center;
     padding-top: 55%;
@@ -63,8 +63,7 @@ nav .brand-logo {
 
 /*------------form------------*/
 #input_password,
-#input_email,
-#input_nick,
+#input_id,
 #input_pwCheck {
     border-bottom: 1.9px solid #252525;;
     margin-bottom: 0px;
@@ -88,12 +87,11 @@ nav .brand-logo {
 }
 input#input_password.validate,
 input#input_pwCheck.validate,
-input#input_nick.validate,
-input#input_email.validate {
+input#input_id.validate {
     padding-bottom: 8px;
 }
 
-#button_join {
+#button_change {
     background-color: white;
     color: #252525;
     border: 1px solid #252525;
