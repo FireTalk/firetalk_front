@@ -143,7 +143,19 @@ div.row:last-child div.theothers_second:last-child {
     font-weight: bold;
     margin-bottom: 5px;
 }
-.drama_title span img {
+.like_positon {
+    position: absolute;
+    right: 50%;
+    padding-right: 14px;
+}
+.like_positon2 {
+    position: absolute;
+    right: 0;
+    padding-right: 14px;
+}
+.like_function {
+    position: relative;
+    bottom: 47px;
     float: right;
     width: 13px;
 }

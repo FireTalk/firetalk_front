@@ -43,39 +43,37 @@ $(document).ready(function () {
         this.append(
             $('<div>').attr('class', 'row').append(
                 $('<div>').attr('class', 'col s6').append(
-                    $('<a>').attr('href', '#!').attr('class', 'collection-item theothers_drama_first').append(
+                    $('<a>').attr('href', 'drama_info.html').attr('class', 'collection-item theothers_drama_first').append(
                         $('<div>').attr('class', 'theothers_first').append(
                             $('<img>').attr('class', 'drama_postimg').attr('src', drama_postimg1).attr('alt', 'drama_post'),
-                            $('<div>').attr('class', 'drama_title').text(drama_title1).append(
-                                $('<span>').append(
-                                    $('<img>').attr('class', 'like_function').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').on("click", function () {
-                                        changeImage(this);
-                                    })
-                                )
-                            ),
+                            $('<div>').attr('class', 'drama_title').text(drama_title1),
                             $('<div>').append(
                                 $('<span>').attr('class', 'broadcaster').text(broadcaster1),
                                 $('<span>').attr('class', 'air_time').text(air_time1)
                             )
                         )
+                    ),
+                    $('<span>').attr('class', 'like_positon').append(
+                        $('<img>').attr('class', 'like_function').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').on("click", function () {
+                            changeImage(this);
+                        })
                     )
                 ),
                 $('<div>').attr('class', 'col s6').append(
                     $('<a>').attr('href', '#!').attr('class', 'collection-item theothers_drama_second').append(
                         $('<div>').attr('class', 'theothers_second').append(
                             $('<img>').attr('class', 'drama_postimg').attr('src', drama_postimg2).attr('alt', 'drama_post'),
-                            $('<div>').attr('class', 'drama_title').text(drama_title2).append(
-                                $('<span>').append(
-                                    $('<img>').attr('class', 'like_function').attr('src', drama_like2).attr('alt', 'drama_like').attr('width', '14px').on("click", function () {
-                                        changeImage(this);
-                                    })
-                                )
-                            ),
+                            $('<div>').attr('class', 'drama_title').text(drama_title2),
                             $('<div>').append(
                                 $('<span>').attr('class', 'broadcaster').text(broadcaster2),
                                 $('<span>').attr('class', 'air_time').text(air_time2)
                             )
                         )
+                    ),
+                    $('<span>').attr('class', 'like_positon2').append(
+                        $('<img>').attr('class', 'like_function').attr('src', drama_like2).attr('alt', 'drama_like').attr('width', '14px').on("click", function () {
+                            changeImage(this);
+                        })
                     )
                 )
             )
@@ -93,18 +91,17 @@ $(document).ready(function () {
                     $('<a>').attr('href', '#!').attr('class', 'collection-item theothers_drama_first').append(
                         $('<div>').attr('class', 'theothers_first').append(
                             $('<img>').attr('class', 'drama_postimg').attr('src', drama_postimg1).attr('alt', 'drama_post'),
-                            $('<div>').attr('class', 'drama_title').text(drama_title1).append(
-                                $('<span>').append(
-                                    $('<img>').attr('class', 'like_function').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').on("click", function () {
-                                        changeImage(this);
-                                    })
-                                )
-                            ),
+                            $('<div>').attr('class', 'drama_title').text(drama_title1),
                             $('<div>').append(
                                 $('<span>').attr('class', 'broadcaster').text(broadcaster1),
                                 $('<span>').attr('class', 'air_time').text(air_time1)
                             )
                         )
+                    ),
+                    $('<span>').attr('class', 'like_positon').append(
+                        $('<img>').attr('class', 'like_function').attr('src', drama_like1).attr('alt', 'drama_like').attr('width', '14px').on("click", function () {
+                            changeImage(this);
+                        })
                     )
                 ),
                 $('<div>').attr('class', 'col s6')
