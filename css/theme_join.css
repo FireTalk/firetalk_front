@@ -7,7 +7,7 @@ html, body {
 .phone-wrapper {
     width: 100%;
     height: 100%;
-    max-width: 750px;
+    max-width: 360px;
     margin: 0 auto;
     position: relative;
     min-height: 100%;
@@ -30,7 +30,7 @@ html, body {
     position: fixed !important; 
     width:100%; 
     z-index: 1000000;
-    max-width: 750px;
+    max-width: 360px;
     color: black;
 }
 .nav-wrapper {
@@ -58,7 +58,7 @@ nav .brand-logo {
 .join {
     margin: 0 auto;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 55%;
 }
 
 /*------------form------------*/
