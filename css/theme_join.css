@@ -83,6 +83,7 @@ nav .brand-logo {
     margin-bottom: 0px;
     height: 24px;
     text-indent: 60px;
+    width: 250px;
 }
 .row .col {
     padding: 0;
@@ -105,12 +106,28 @@ input#input_email.validate {
     padding-bottom: 8px;
 }
 
+#button_send {
+    background-color: white;
+    color: #252525;
+    border: 1px solid #252525;
+    height: 26px;
+    width: 50px;
+    font-size: 11px;
+    font-family: NotoSansCJKkr-Medium;
+    letter-spacing: -0.8px;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 26px;
+    position: absolute;
+    top:-3px;
+    right: -10px;
+}
 #button_join {
     background-color: white;
     color: #252525;
     border: 1px solid #252525;
     height: 46px;
-    width: 100%;
+    width: 250px;
     font-size: 14px;
     font-family: NotoSansCJKkr;
     font-weight: bold;
