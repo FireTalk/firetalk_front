@@ -75,8 +75,7 @@ nav {
 nav .brand-logo {
     position: absolute;
     height: inherit;
-    top: -6px;
-    font-size: 21px;
+    top: -3px;
     color: black;
     font-family: DINAlternate;
     font-weight: bold;

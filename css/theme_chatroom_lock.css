@@ -31,11 +31,11 @@ html, body {
 
 .phone-body {
     position: relative;
-    min-height: 95%;
+    min-height: 100%;
     width: 100%;
     background-color: white;
     overflow-y: scroll;
-    height: 95%;
+    height: 100%;
 }
 /*
 .phone-body {
