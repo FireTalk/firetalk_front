@@ -105,6 +105,7 @@ nav .brand-logo {
 span.brand-logo img {
     width: 17px;
     margin-right: 3px;
+    margin-bottom: -2px;
 }
 /*------------chat-message------------*/
 .collection {
