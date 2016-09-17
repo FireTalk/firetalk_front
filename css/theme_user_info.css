@@ -37,6 +37,7 @@ html, body {
     padding: 0;
     overflow: hidden;
     margin-bottom: 6px;
+    cursor: pointer;
 }
 
 .user_info h4 {
@@ -51,6 +52,24 @@ html, body {
 h4 img {
     margin-bottom: 4px;
 }
+
+#change_nickname {
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+
+#nickname {
+    color: black;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: AppleSDGothicNeo;
+    text-align: center;
+    border: transparent;
+    width: 125px;
+}
+
 /*------------form------------*/
 #input_id,
 #input_password,

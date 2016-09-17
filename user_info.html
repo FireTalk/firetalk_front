@@ -20,11 +20,16 @@
             <div class="user_info">
                 <div class="row" style="margin-bottom: 0px">
                     <div id="logo">
-                        <img src="./images/profile.png" class="circle" alt="info_icon" width="96px">
+                        <!--<img type="file" id="profile_img" src="./images/profile.png" class="circle" alt="info_icon" width="96px" onclick="changeImage(this)">-->
+                        <!--<input type='text' name='file2' id='file2'>-->
+                        <input id="select_img" type=file name='file1' style='display: none;'>
+                        <img id="profile_img" src='./images/profile.png' class="circle" alt="profile_img" width="96px" height="96px" border='0' onclick='document.all.file1.click(); '>
                     </div>
                 </div>
                 <div class="row">
-                    <h4> 테디아 <img src="./images/info.png" alt="info_icon" width="15px"> </h4> 
+                    <!--<h4 id="user_nickname"> 테디아 <img id="change_nickname2" src="./images/info.png" alt="info_icon" width="15px"> </h4>-->
+                    <input type="text" id="nickname" value="테디아" readOnly>
+                    <img id="change_nickname" src="./images/info.png" alt="info_icon" width="15px">
                 </div>
 
                 <div class="row">
@@ -69,6 +74,8 @@
 
     <script src="js/changeJoinBtn.js"></script>
     <script src="js/idpwdCheck.js"></script>
+
+    <script src="js/changeUserInfo.js"></script>
 
 
 </body>
