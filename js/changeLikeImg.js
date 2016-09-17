@@ -1,6 +1,8 @@
 // 첫번째 드라마 즐겨찾기 이미지
 var img_like1 = new Image();
 img_like1.src = "./images/like.png";
+var img_like2 = new Image();
+img_like2.src = "./images/like2.png";
 var img_dislike1 = new Image();
 img_dislike1.src = "./images/dislike.png";
 
@@ -20,6 +22,14 @@ function changeImage(image) {
         image.src = img_dislike1.src;
     } else if (image.src.replace(/^.*\//, '') === 'dislike.png') {
         image.src = img_like1.src;
+    }
+}
+
+function changeImage2(image) { // 잠긴 채팅방 좋아요 이미지 변경 
+    if (image.src.replace(/^.*\//, '') === 'like2.png') {
+        image.src = img_dislike1.src;
+    } else if (image.src.replace(/^.*\//, '') === 'dislike.png') {
+        image.src = img_like2.src;
     }
 }
 

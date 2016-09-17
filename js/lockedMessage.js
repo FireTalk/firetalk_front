@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     // 메시지 리스트 배열 (MAX>>몇개까지 정해야겠지..)
     var message_list = [
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '완전 웃긴닼ㅋㅋㅋㅋ 상황정황 얼척없음 ㅋㅋㅋㅋㅋ', msg_like: './images/like.png', likeNum: 252 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '완전 웃긴닼ㅋㅋㅋㅋ 상황정황 얼척없음 ㅋㅋㅋㅋㅋ', msg_like: './images/like2.png', likeNum: 252 },
         { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ', msg_like: './images/dislike.png', likeNum: 25 },
         { profile: '', nickname: '', emoticon: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~', msg_like: './images/dislike.png', likeNum: 225 },
         { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '제가 봤을 때 이거 작가가 약하고 쓴 것이 틀림없음', msg_like: './images/dislike.png', likeNum: 25 },
@@ -19,14 +19,14 @@ $(document).ready(function () {
         { profile: '', nickname: '', emoticon: 'images/emoticon/emoticon_test.png', msg: '', msg_like: './images/dislike.png', likeNum: 25 },
         { profile: '', nickname: '', emoticon: 'images/emoticon/emoticon_test.png', msg: '제가 봤을 때 이거 작가가 약하고 쓴 것이 틀림없음', msg_like: './images/dislike.png', likeNum: 55 },
 
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '1단계', msg_like: './images/like.png', likeNum: 2 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '2단계', msg_like: './images/like.png', likeNum: 12 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '3단계', msg_like: './images/like.png', likeNum: 22 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '4단계', msg_like: './images/like.png', likeNum: 33 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '5단계', msg_like: './images/like.png', likeNum: 43 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '6단계', msg_like: './images/like.png', likeNum: 53 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '7단계', msg_like: './images/like.png', likeNum: 67 },
-        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '8단계', msg_like: './images/like.png', likeNum: 78 }
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '1단계', msg_like: './images/like2.png', likeNum: 2 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '2단계', msg_like: './images/like2.png', likeNum: 12 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '3단계', msg_like: './images/like2.png', likeNum: 22 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '4단계', msg_like: './images/like2.png', likeNum: 33 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '5단계', msg_like: './images/like2.png', likeNum: 43 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '6단계', msg_like: './images/like2.png', likeNum: 53 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '7단계', msg_like: './images/like2.png', likeNum: 67 },
+        { profile: 'profile1.png', nickname: '공블리', emoticon: '', msg: '8단계', msg_like: './images/like2.png', likeNum: 78 }
     ];
 
     // 배열>>메시지 리스트 보여주기
@@ -46,7 +46,7 @@ $(document).ready(function () {
                             $('<p>').attr('class', 'msg2').text(msg),
                             $('<div>').attr('class', 'secondary-content badge likefunction_my').append(
                                 $('<img>').attr('class', 'like').attr('src', msg_like).attr('alt', 'msg_like').on("click", function () {
-                                    changeImage(this);
+                                    changeImage2(this);
                                 }),
                                 $('<span>').attr('class', 'likeNum').text(likeNum)
                             )
@@ -64,7 +64,7 @@ $(document).ready(function () {
                             $('<p>').attr('class', 'msg1').attr('data-attr', '#ff0453').text(msg),
                             $('<div>').attr('class', 'secondary-content badge likefunction_other').append(
                                 $('<img>').attr('class', 'like').attr('src', msg_like).attr('alt', 'msg_like').on("click", function () {
-                                    changeImage(this);
+                                    changeImage2(this);
                                 }),
                                 $('<span>').attr('class', 'likeNum').text(likeNum)
                             )
@@ -106,7 +106,7 @@ $(document).ready(function () {
                                 $('<p>').attr('class', 'msg2').text(msg),
                                 $('<div>').attr('class', 'secondary-content badge likefunction_my').append(
                                     $('<img>').attr('class', 'like').attr('src', msg_like).attr('alt', 'msg_like').on("click", function () {
-                                        changeImage(this);
+                                        changeImage2(this);
                                     }),
                                     $('<span>').attr('class', 'likeNum').text(likeNum)
                                 )
@@ -127,7 +127,7 @@ $(document).ready(function () {
                                 $('<p>').attr('class', 'msg1').text(msg),
                                 $('<div>').attr('class', 'secondary-content badge likefunction_other').append(
                                     $('<img>').attr('class', 'like').attr('src', msg_like).attr('alt', 'msg_like').on("click", function () {
-                                        changeImage(this);
+                                        changeImage2(this);
                                     }),
                                     $('<span>').attr('class', 'likeNum').text(likeNum)
                                 )
@@ -142,7 +142,7 @@ $(document).ready(function () {
         }
 
     }
-    
+
     // 좋아요 갯수에 따른 색상 변경
     function changeMyMsgColor (parent, likeNum) {
         
