@@ -96,10 +96,9 @@ nav .brand-logo {
     position: absolute;
     height: inherit;
     top: -5px;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
-    font-family: DINAlternate;
-    font-weight: bold;
+    font-family: NotoSansCJKkr-Bold;
     letter-spacing: -1px;
 }
 

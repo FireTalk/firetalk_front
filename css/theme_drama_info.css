@@ -15,6 +15,11 @@
        url('fonts/roboto/Roboto-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@media (max-width:320px){html{font-size:8.3px;}}
+@media (min-width:321px) and (max-width:339px){html{font-size:8.5px;}}
+@media (min-width:340px) and (max-width:359px){html{font-size:9px;}}
+@media (min-width:360px){html{font-size:10px;}}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -58,10 +63,14 @@ nav {
     float: left;
     padding-left: 14px;
     margin-right: 5px;
+    width: 22px;
 }
 nav .brand-logo {
-    font-weight: bold;
-    font-size: 22px;
+    position: absolute;
+    height: inherit;
+    top: -5px;
+    font-size: 17px;
+    letter-spacing: -1px;
     color: black;
     font-family: NotoSansCJKkr-Bold;
 }
@@ -136,7 +145,7 @@ h5 {
 .drama_num {
     display:inline-block;
     float: left;
-    font-size:17px;
+    font-size:13px;
     color:black;
     font-weight: bold;
     margin: 10px 0px;
@@ -144,11 +153,14 @@ h5 {
 
 .drama_date {
     display:inline-block;
-    font-size:16px;
+    font-size:13px;
     color:grey;
     float: left;
     margin: 10px;
     font-family:Roboto-Regular;
+}
+.drama_day {
+    font-size:11px;
 }
 
 .state_lock {
@@ -156,23 +168,31 @@ h5 {
     color: #ff0453;
     margin: 10px 0px;
     font-weight: bold;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
 }
 .state_time {
     display:inline-block;
     color: #ff0453;
     margin: 10px 0px;
     font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
 }
 
 
 .clock_1 {
     width: 12px;
     margin-right: 2px;
+    margin-bottom:2px
 }
 
 .lock {
     width: 10px;
     margin-right: 2px;
+    margin-bottom:2px
 }
 
 
@@ -189,6 +209,7 @@ h5 {
     overflow: hidden;
     position: relative;
     text-align: center;
+    margin-top: 45px;
 }
 
 .collection a.collection-item{

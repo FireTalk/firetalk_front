@@ -25,14 +25,19 @@ html, body {
     min-height: 100%;
     width: 100%;
     background-color: white;
+    display: table;
 }
 /*------------nav-bar------------*/
 .back {
-    width: 10px;
     float: left;
     padding-left: 14px;
+    margin-top: 0px;
     margin-right: 5px;
 }
+.back img {
+    width: 22px;
+}
+
 #nav-bar{
     top: 0; 
     position: fixed !important; 
@@ -55,18 +60,18 @@ nav {
 nav .brand-logo {
     position: absolute;
     height: inherit;
-    top: -6px;
-    font-size: 21px;
+    top: -5px;
+    font-size: 17px;
+    letter-spacing: -1px;
     color: black;
-    font-family: DINAlternate;
-    font-weight: bold;
-    letter-spacing: -3px;
+    font-family: NotoSansCJKkr-Bold;
 }
 
 .join {
     margin: 0 auto;
     text-align: center;
-    padding-top: 55%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /*------------form------------*/

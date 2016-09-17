@@ -136,7 +136,7 @@ $(document).ready(function () {
         // 로그인 아이콘 눌렀을 경우
         $('#button_plus').on("click", function () {
             // 로그인 페이지로 이동
-            window.location.href = "login_inner.html";
+            window.location.href = "login.html";
         });
 
     }
