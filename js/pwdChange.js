@@ -1,6 +1,5 @@
 function idPwdCheck() {
     var id = document.getElementById("input_id").value;
-    var password = document.getElementById("input_password").value;
     var pwCheck = document.getElementById("input_pwCheck").value;
 
     if (!id) { // 이메일 입력 여부 파악
