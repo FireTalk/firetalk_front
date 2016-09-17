@@ -74,4 +74,9 @@ $(document).ready(function () {
         
     });
 
+    $('#button_change').on("click", function(e) {
+        alert("정보 변경!");
+        //정보 업데이트
+    });
+
 });
