@@ -39,7 +39,8 @@
                         <div class="row">
                             <div class="input-field col s8 offset-s2">
                                 <div class="input_title">닉네임</div>
-                                <input id="input_nick" type="text" class="validate" placeholder="닉네임을 정해주세요." onkeyup="checkEndInput()">
+                                <input id="input_nick" type="text" class="validate" placeholder="닉네임을 정해주세요." onkeydown="duplicationCheck()" onkeyup="checkEndInput()">
+                                <span id="duplication">중복된 닉네임입니다.</span>
                             </div>
                         </div>
                         <div class="row">
@@ -74,6 +75,7 @@
         <script type="text/javascript" src="js/materialize.min.js"></script>
 
         <script src="js/emailpwdCheck.js"></script>
+        <script src="js/duplicationCheck.js"></script>
 </body>
 
 </html>

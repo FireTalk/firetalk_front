@@ -14,19 +14,24 @@ function idPwdCheck() {
             alert("이메일을 형식에 맞게 입력해주세요.");
             return false;
         }
-    
-    
-    
+
     else if (!nick) { // 닉네임 입력 여부 파악
         alert("닉네임을 입력해주세요.");
         return false;
-    } else if (!password) { // 비밀번호 입력 여부 파악
+    }
+    
+    
+    // 닉네임 유효성 검사
+        else if (!/^[a-zA-Z0-9\u3131-\u314e|\u314f-\u3163|\uac00-\ud7a3]{1,8}$/.test(nick)) {
+            alert("닉네임은 한글, 영문, 숫자만 가능하며\n1~8자리를 사용해야 합니다.\n*공백이나 특수문자 불가*");
+            return false;
+        }
+    
+     else if (!password) { // 비밀번호 입력 여부 파악
         alert("비밀번호를 입력해주세요.");
         return false;
-    } else if (!password) { // 비밀번호 입력 여부 파악
-        alert("비밀번호를 입력해주세요.");
-        return false;
-    } 
+    }
+    
      // 비밀번호 유효성 검사
         // 길이
         else if (!/^[a-zA-Z0-9]{4,6}$/.test(password)) {
@@ -74,4 +79,5 @@ function checkEndInput() {
             btn_login.style.color = "#252525";
         }
     }
+
 }
