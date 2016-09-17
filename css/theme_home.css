@@ -1,10 +1,16 @@
 @font-face {
   font-family: 'NotoSansCJKkr-Regular';
-  src: url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'NotoSansCJKkr-Bold';
+  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 @media (max-width:320px){html{font-size:8.3px;}}
 @media (min-width:321px) and (max-width:339px){html{font-size:8.5px;}}
@@ -147,8 +153,9 @@ div.row:last-child div.theothers_second:last-child {
     color: black;
     font-size: 1.3em;
     letter-spacing: -1px;
-    font-weight: bold;
     margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'NotoSansCJKkr-Bold';
 }
 .like_positon {
     position: absolute;
@@ -170,13 +177,13 @@ div.row:last-child div.theothers_second:last-child {
     border: #777777 1.5px solid;
     padding: 0px 5px 0px 5px;
     border-radius: 10px 10px 10px 10px;
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #777777;
-    font-family: NotoSansCJKkr-Regular;
+    font-family: 'NotoSansCJKkr-Regular';
 }
 .air_time {
     margin-left: 5px;
     color: #777777;
     font-size: 1.2em;
-    font-family: NotoSansCJKkr-Regular;
+    font-family: 'NotoSansCJKkr-Regular';
 }
