@@ -105,6 +105,7 @@ nav .brand-logo {
     margin-bottom: 0px;
     height: 24px;
     text-indent: 60px;
+    font-size: 14px;
 }
 .row .col {
     padding: 0;
@@ -123,7 +124,7 @@ nav .brand-logo {
 
 input.validate#input_password, input.validate#input_pwCheck, input.validate#input_nick, input.validate#input_email {
     padding-bottom: 8px;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: -0.5px;
     font-family: NotoSansCJKkr-Regular;
     padding-left: 10px;

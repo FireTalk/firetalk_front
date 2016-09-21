@@ -1,10 +1,21 @@
 @font-face {
-  font-family: 'NotoSansCJKkr-Regular';
-  src: url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'NotoSansCJKkr-Regular';
+    src: url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.eot');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.woff') format('woff'),
+         url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr-Bold';
+    src: url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.eot');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.woff') format('woff'),
+         url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
   font-family: 'Roboto-Regular';
@@ -76,14 +87,15 @@ h4 img {
 
 #nickname {
     color: black;
-    margin-top: 0;
+    margin-top: 0px;
     font-size: 3em;
     letter-spacing: -1px;
-    font-weight: bold;
-    font-family: AppleSDGothicNeo;
+    font-size: 32px;
+    font-family: NotoSansCJKkr-Bold;
     text-align: center;
     border: transparent;
-    width: 125px;
+    width: 100px;
+    height: 39px;
 }
 
 /*------------form------------*/
@@ -105,15 +117,16 @@ h4 img {
 .input_title{
     position: absolute;
     font-size: 1.4em;
-    font-family: NotoSansCJKkr;
-    font-weight: bold;
+    font-family: NotoSansCJKkr-Bold;
     letter-spacing: -1px;
     color: #252525;
+    top:2px;
 }
-input#input_id.validate,
-input#input_password.validate,
-input#input_num.validate {
-    padding-bottom: 8px;
+
+input.validate#input_id, input.validate#input_password, input.validate#input_num {
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-family: NotoSansCJKkr-Regular;
 }
 
 #button_change {
@@ -122,9 +135,8 @@ input#input_num.validate {
     border: 1px solid #252525;
     height: 46px;
     width: 100%;
-    font-size: 1.4em;
-    font-family: NotoSansCJKkr;
-    font-weight: bold;
+    font-size: 14px;
+    font-family: NotoSansCJKkr-Bold;
     letter-spacing: -1px;
     margin-bottom: 5px;
     border-radius: 0;
@@ -137,8 +149,8 @@ input#input_num.validate {
     border: 1px solid #252525;
     height: 46px;
     width: 100%;
-    font-size: 1.4em;
-    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-family: NotoSansCJKkr-Bold;
     font-weight: bold;
     letter-spacing: -1px;
     border-radius: 0;
