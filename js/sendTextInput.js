@@ -282,5 +282,15 @@ $(document).ready(function () {
             )
         )
     }
+});
 
+//스크롤올라갔을경우에만 bottom_message띄우기
+$(".phone-body").scroll( function() {
+  var elem = $(".phone-body");
+  var obj=document.getElementById("bottom_message");
+  if ( elem[0].scrollHeight - elem.scrollTop() == elem.outerHeight()) {
+      obj.style.display="none";
+    } else{
+        obj.style.display="block";
+    }
 });

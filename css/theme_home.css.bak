@@ -1,23 +1,19 @@
 @font-face {
     font-family: 'NotoSansCJKkr-Regular';
-    src: url('./fonts/NotoSansKR/notokr-regular.eot');
-    src: url('./fonts/NotoSansKR/notokr-regular.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/NotoSansKR/notokr-regular.woff2') format('woff2'),
-         url('./fonts/NotoSansKR/notokr-regular.woff') format('woff'),
-         url('./fonts/NotoSansKR/notokr-regular.ttf') format('truetype'),
-         url('./fonts/NotoSansKR/notokr-regular.svg#notokr-regular') format('svg');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.eot');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.woff') format('woff'),
+         url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'NotoSansCJKkr-Bold';
-    src: url('./fonts/NotoSansKR/notokr-bold.eot');
-    src: url('./fonts/NotoSansKR/notokr-bold.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/NotoSansKR/notokr-bold.woff2') format('woff2'),
-         url('./fonts/NotoSansKR/notokr-bold.woff') format('woff'),
-         url('./fonts/NotoSansKR/notokr-bold.ttf') format('truetype'),
-         url('./fonts/NotoSansKR/notokr-bold.svg#notokr-bold') format('svg');
+    font-family: 'NotoSansCJKkr-Bold2';
+    src: url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.eot');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.woff') format('woff'),
+         url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -164,7 +160,7 @@ div.row:last-child div.theothers_second:last-child {
     font-size: 1.3em;
     letter-spacing: -1px;
     margin-bottom: 5px;
-    font-family: 'NotoSansCJKkr-Bold';
+    font-family: 'NotoSansCJKkr-Bold2';
 }
 .like_positon {
     position: absolute;
@@ -186,7 +182,7 @@ div.row:last-child div.theothers_second:last-child {
     border: #777777 0.15em solid;
     padding: 0px 5px 0px 5px;
     border-radius: 10px 10px 10px 10px;
-    fontfile:///C:/Users/Tacademy/Desktop/MobileServerPro/firetalk/firetalk_front/home.html#!-size: 0.9em;
+    font-size: 0.9em;
     color: #777777;
     font-family: 'NotoSansCJKkr-Regular';
 }

@@ -38,7 +38,17 @@ function changeTextOnOff(image) {
 
     if (on_off.innerText === "ON") {
         on_off.innerText = "OFF";
+        $('.send_emoticon').hide();
+        $('.emoticon_chat').hide();
+        $('.other_send_emoticon2').hide();
+        $('li.collection-item.avatar.other-msg-emoticon').css('height','0px').css('min-height','0px');
+        $('.collection .collection-item.avatar').css('padding-top', '0px');
+
     } else if (on_off.innerText === "OFF") {
         on_off.innerText = "ON";
+        $('.send_emoticon').show();
+        $('.emoticon_chat').show();
+        $('.other_send_emoticon2').show();
+        $('li.collection-item.avatar.other-msg-emoticon').css('height','120px');
     }
 }

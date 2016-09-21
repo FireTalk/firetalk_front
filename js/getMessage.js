@@ -12,6 +12,18 @@ $(document).ready(function () {
         { profile: 'profile1.png', nickname: '공블리', msg: '완전 웃긴닼ㅋㅋㅋㅋ 상황정황 얼척없음 ㅋㅋㅋㅋㅋ'},
         { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
         { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
+        { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
+        { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
+        { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
+        { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
+        { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
+        { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
+        { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
+        { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
+        { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
+        { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
+        { profile: 'profile1.png', nickname: '공블리', msg: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ'},
+        { profile: '', nickname: '', msg: '솔찍히 공블리 때문에 보는 것도 있었는데 연기 역시 잘해~'},
         { profile: 'profile1.png', nickname: '공블리', msg: '제가 봤을 때 이거 작가가 약하고 쓴 것이 틀림없음'}
     ];
 

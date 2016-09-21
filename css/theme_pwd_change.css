@@ -1,10 +1,21 @@
 @font-face {
-  font-family: 'NotoSansCJKkr-Regular';
-  src: url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'NotoSansCJKkr-Regular';
+    src: url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.eot');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.woff') format('woff'),
+         url('./fonts/NotoSansKR/NotoSansKR-Regular-Hestia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr-Bold';
+    src: url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.eot');
+    src: url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.woff') format('woff'),
+         url('./fonts/NotoSansKR/NotoSansKR-Bold-Hestia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 html, body {
     height: 100%;
@@ -92,11 +103,18 @@ nav .brand-logo {
 .input_title{
     position: absolute;
     font-size: 14px;
-    font-family: NotoSansCJKkr;
+    font-family: NotoSansCJKkr-Bold;
     font-weight: bold;
     letter-spacing: -1px;
     color: #252525;
+    top:2px;
 }
+
+input.validate#input_password, input.validate#input_pwCheck, input.validate#input_id {
+    padding-bottom: 8px;
+    font-family: NotoSansCJKkr-Regular;
+}
+
 input#input_password.validate,
 input#input_pwCheck.validate,
 input#input_id.validate {
@@ -110,7 +128,7 @@ input#input_id.validate {
     height: 46px;
     width: 100%;
     font-size: 14px;
-    font-family: NotoSansCJKkr;
+    font-family: NotoSansCJKkr-Bold;
     font-weight: bold;
     letter-spacing: -1px;
     margin-bottom: 5px;

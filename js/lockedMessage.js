@@ -85,7 +85,7 @@ $(document).ready(function () {
                     );
                 } else { // 남이 보낸 메시지
                     this.append(
-                        $('<div>').attr('class', 'row').append(
+                        $('<div>').attr('class', 'row emoticon_chat').append(
                             $('<li>').attr('class', 'collection-item avatar other-msg-emoticon').append(
                                 $('<img>').attr('src', 'images/' + profile).attr('class', 'circle'),
                                 $('<span>').attr('class', 'nickname').text(nickname),
