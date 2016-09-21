@@ -1,17 +1,27 @@
 @font-face {
-  font-family: 'NotoSansCJKkr-Regular';
-  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    font-family: 'NotoSansCJKkr-Regular';
+    src: url('./fonts/NotoSansKR/notokr-regular.eot');
+    src: url('./fonts/NotoSansKR/notokr-regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/notokr-regular.woff2') format('woff2'),
+         url('./fonts/NotoSansKR/notokr-regular.woff') format('woff'),
+         url('./fonts/NotoSansKR/notokr-regular.ttf') format('truetype'),
+         url('./fonts/NotoSansKR/notokr-regular.svg#notokr-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'NotoSansCJKkr-Bold';
-  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/NotoSansCJKkr/NotoSansCJKkr-Bold-Alphabetic.ttf')  format('truetype'), /* Safari, Android, iOS */
+    font-family: 'NotoSansCJKkr-Bold';
+    src: url('./fonts/NotoSansKR/notokr-bold.eot');
+    src: url('./fonts/NotoSansKR/notokr-bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NotoSansKR/notokr-bold.woff2') format('woff2'),
+         url('./fonts/NotoSansKR/notokr-bold.woff') format('woff'),
+         url('./fonts/NotoSansKR/notokr-bold.ttf') format('truetype'),
+         url('./fonts/NotoSansKR/notokr-bold.svg#notokr-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @media (max-width:320px){html{font-size:8.3px;}}
 @media (min-width:321px) and (max-width:339px){html{font-size:8.5px;}}
 @media (min-width:340px) and (max-width:359px){html{font-size:9px;}}
@@ -154,7 +164,6 @@ div.row:last-child div.theothers_second:last-child {
     font-size: 1.3em;
     letter-spacing: -1px;
     margin-bottom: 5px;
-    font-weight: bold;
     font-family: 'NotoSansCJKkr-Bold';
 }
 .like_positon {
@@ -174,7 +183,7 @@ div.row:last-child div.theothers_second:last-child {
     width: 13px;
 }
 .broadcaster {
-    border: #777777 1.5px solid;
+    border: #777777 0.15em solid;
     padding: 0px 5px 0px 5px;
     border-radius: 10px 10px 10px 10px;
     font-size: 0.9em;
