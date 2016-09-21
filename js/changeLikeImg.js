@@ -42,7 +42,7 @@ function changeTextOnOff(image) {
         $('.emoticon_chat').hide();
         $('.other_send_emoticon2').hide();
         $('li.collection-item.avatar.other-msg-emoticon').css('height','0px').css('min-height','0px');
-        $('.collection .collection-item.avatar').css('padding-top', '0px');
+        $('.collection .collection-item.avatar').css('padding-top', '0px').css('margin-top', '10px');
 
     } else if (on_off.innerText === "OFF") {
         on_off.innerText = "ON";
@@ -50,5 +50,6 @@ function changeTextOnOff(image) {
         $('.emoticon_chat').show();
         $('.other_send_emoticon2').show();
         $('li.collection-item.avatar.other-msg-emoticon').css('height','120px');
+        $('.collection .collection-item.avatar').css('padding-top', '10px').css('margin-top', '0px');
     }
 }
