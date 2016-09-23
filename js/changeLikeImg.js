@@ -5,6 +5,10 @@ var img_like2 = new Image();
 img_like2.src = "./images/like2.png";
 var img_dislike1 = new Image();
 img_dislike1.src = "./images/dislike.png";
+var img_like3 = new Image();
+img_like3.src = "./images/like3.png";
+var img_dislike3 = new Image();
+img_dislike3.src = "./images/dislike3.png";
 
 /*
 // 나머지 드라마 즐겨찾기 이미지
@@ -30,6 +34,14 @@ function changeImage2(image) { // 잠긴 채팅방 좋아요 이미지 변경
         image.src = img_dislike1.src;
     } else if (image.src.replace(/^.*\//, '') === 'dislike.png') {
         image.src = img_like2.src;
+    }
+}
+
+function changeImage3(image) { // dramainfo 좋아요 이미지 변경 
+    if (image.src.replace(/^.*\//, '') === 'like3.png') {
+        image.src = img_dislike3.src;
+    } else if (image.src.replace(/^.*\//, '') === 'dislike3.png') {
+        image.src = img_like3.src;
     }
 }
 

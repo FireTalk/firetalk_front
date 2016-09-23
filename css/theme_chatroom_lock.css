@@ -644,3 +644,7 @@ li.collection-item.avatar.my-msg2 {
 }
 
 
+.collection .avatar.collection-item {
+    min-height: 72px;
+    padding-bottom: 0px;
+}

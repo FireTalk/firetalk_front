@@ -127,7 +127,6 @@ input.validate#input_password, input.validate#input_pwCheck, input.validate#inpu
     font-size: 14px;
     letter-spacing: -0.5px;
     font-family: NotoSansCJKkr-Regular;
-    padding-left: 10px;
 }
 
 input#input_password.validate,

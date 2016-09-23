@@ -102,7 +102,7 @@ input.validate#input_id, input.validate#input_password {
     font-size: 14px;
     letter-spacing: -0.5px;
     font-family: NotoSansCJKkr-Regular;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 
 .row .col {
